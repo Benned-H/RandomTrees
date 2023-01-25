@@ -22,19 +22,19 @@ GenerateRRT( x_init, K, dt ):
 # Experimental Results
 
 The following experimental results are notable from the 1998 paper:
-1. On a 100 m by 100 m 2D plane, the RRT quickly expands towards all four corners of the square. The Euclidean distance metric was used.
+1. [RRT-EX-1] On a 100 m by 100 m 2D plane, the RRT quickly expands towards all four corners of the square. The Euclidean distance metric was used.
 
-2. In 2D, convex spaces, the naive RRT-found path differs from the optimal path by a factor of 1.3 to 2.0.
+2. [RRT-EX-2] In 2D, convex spaces, the naive RRT-found path differs from the optimal path by a factor of 1.3 to 2.0.
 
-3. The RRT vertices are confirmed to be uniform, according to several Chi-square tests.
+3. [RRT-EX-3] The RRT vertices are confirmed to be uniform, according to several Chi-square tests.
 
-4. In a 3D holonomic problem, a block fits through a narrow gap.
+4. [RRT-EX-4] In a 3D holonomic problem, a block fits through a narrow gap.
 
-5. Motion planning for a car that can only turn right and move forward.
+5. [RRT-EX-5] Motion planning for a car that can only turn right and move forward.
 
-6. Motion planning in a cluttered environment for a car that can only move forward and turn left in three different increments.
+6. [RRT-EX-6] Motion planning in a cluttered environment for a car that can only move forward and turn left in three different increments.
 
-7. Motion planning using a 5D RRT for a kinodynamic car in a cluttered environment.
+7. [RRT-EX-7] Motion planning using a 5D RRT for a kinodynamic car in a cluttered environment.
 
 
 # Citations
