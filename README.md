@@ -1,2 +1,3 @@
-# rrt-tdd
-A test-driven implementation of various RRT-related algorithms.
+# RandomTrees
+
+A results-driven, incremental implementation of various RRT-based algorithms.
